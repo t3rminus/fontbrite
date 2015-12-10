@@ -1,5 +1,32 @@
 # FontBrite
-A Javascript HTML5 canvas bitmap font renderer, with color-changing
+A Javascript HTML5 canvas bitmap font renderer, with color-changing abilities. Additional examples coming soon.
+
+# Examples
+Example font definition
+```javascript
+ var fontMetrics = {
+    'img': 'images/font3.png', // Can be either pre-loaded DOMElement or img src
+    'space': 5, // Width of spaces
+    'tab': 15, // Width of tabs
+	
+	// Character definition
+	'character': [top-left x, top-left y, width, height, line height (optional)],
+	
+	// Example with numbers
+    '0': [0,1,8,11],
+    '1': [10,1,5,11],
+    '2': [20,1,8,11],
+    '3': [30,1,8,11],
+    '4': [40,1,8,11],
+    '5': [50,1,8,11],
+    '6': [60,1,8,11],
+    '7': [70,1,8,11],
+    '8': [80,1,8,11],
+    '9': [90,1,8,11]
+};
+```
+
+# API
 
 <a name="FontBrite"></a>
 ## FontBrite
